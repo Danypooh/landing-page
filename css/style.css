@@ -30,3 +30,19 @@ ul {
 a {
   text-decoration: none;
 }
+
+button {
+  background-color: #3882F6;
+  color: white;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.text-two {
+  font-size: 18px;
+  color: rgb(94, 94, 94);
+}
