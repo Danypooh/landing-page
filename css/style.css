@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .segment-one {
@@ -46,3 +47,14 @@ h2 {
   font-size: 18px;
   color: rgb(94, 94, 94);
 }
+
+.segment-three {
+  background-color: #E5E7EB;
+}
+
+.text-three {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
