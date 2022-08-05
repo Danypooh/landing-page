@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.segment-one {
+  background-color: #1F2937;
+}
+
+.header {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
