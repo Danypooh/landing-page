@@ -59,13 +59,23 @@ h2 {
   color: #1F2937;
 }
 
+.cite-author {
+  font-size: 20px;
+}
+
 .body-four {
-    background-color: #3882F6;
-    font-size: 18px;
-    color: #E5E7EB;
+  background-color: #3882F6;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 h3 {
   font-size: 24px;
   color: #F9FAF8;
+}
+
+.footer {
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
 }
