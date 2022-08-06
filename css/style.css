@@ -117,15 +117,34 @@ h2 {
   font-size: 20px;
 }
 
-.body-four {
+.segment-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+}
+
+.body-four,
+.button-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #3882F6;
-  font-size: 18px;
   color: #E5E7EB;
+  height: 140px;
+  padding: 0 70px;
+}
+
+.body-four {
+  font-size: 18px;
+  width: 500px;
+  gap: 8px;
 }
 
 h3 {
   font-size: 24px;
   color: #F9FAF8;
+  margin: 0;
 }
 
 .footer {
