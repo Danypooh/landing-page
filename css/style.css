@@ -7,8 +7,10 @@ body {
 
 .segment-one {
   background-color: #1F2937;
-  padding: 10px 50px;
+  padding: 10px 150px;
   height: 350px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -28,12 +30,17 @@ body {
 }
 
 .content-one {
-  width: 400px;
+  width: 450px;
+}
+
+img {
+  width: 350px;
+  height: 250px;
 }
 
 .image-one {
   text-align: center;
-  width: 400px;
+  width: 350px;
 }
 
 .hero-main {
@@ -50,7 +57,7 @@ body {
 ul {
   list-style: none;
   display: flex;
-  gap: 12px;
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
@@ -63,6 +70,10 @@ button {
   background-color: #3882F6;
   color: white;
   font-size: 20px;
+  border-radius: 15px;
+  border-style: none;
+  padding: 10px 20px;
+  width: 140px;
 }
 
 .segment-two {
@@ -71,6 +82,7 @@ button {
   justify-content: start;
   align-items: center;
   height: 330px;
+  margin-bottom: 100px;
 }
 
 h2 {
@@ -89,6 +101,14 @@ h2 {
   width: 160px;
 }
 
+.box-image {
+  border-radius: 15px;
+  border-style: ridge;
+  border-color: #3882F6;
+  width: 150px;
+  height: 150px;
+}
+
 .text-two {
   font-size: 18px;
   color: rgb(94, 94, 94);
@@ -100,7 +120,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 260px;
   height: 310px;
 }
 
@@ -124,21 +144,29 @@ h2 {
   height: 260px;
 }
 
-.body-four,
+.body-four {
+  display: flex;
+  border-radius: 15px;
+  background-color: #3882F6;
+  height: 140px;
+  padding: 0 0 0 70px;
+  font-size: 18px;
+  width: 900px;
+  gap: 70px;
+  color: #E5E7EB;
+}
+
+.content-four,
 .button-four {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #3882F6;
-  color: #E5E7EB;
-  height: 140px;
-  padding: 0 70px;
+  flex: auto;
 }
 
-.body-four {
-  font-size: 18px;
-  width: 500px;
-  gap: 8px;
+.other-button {
+  border-style: ridge;
+  border-color: #E5E7EB;
 }
 
 h3 {
