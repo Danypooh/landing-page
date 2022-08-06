@@ -8,9 +8,9 @@ body {
 .segment-one {
   background-color: #1F2937;
   padding: 10px 150px;
-  height: 350px;
   display: flex;
   flex-direction: column;
+  
 }
 
 .header {
@@ -25,7 +25,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
@@ -81,7 +80,6 @@ button {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 330px;
   margin-bottom: 100px;
 }
 
@@ -120,8 +118,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 260px;
-  height: 310px;
+  padding: 60px 260px;
 }
 
 .text-three {
@@ -141,7 +138,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 260px;
+  padding: 100px;
 }
 
 .body-four {
