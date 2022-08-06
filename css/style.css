@@ -6,11 +6,32 @@ body {
 
 .segment-one {
   background-color: #1F2937;
+  padding: 10px 50px;
 }
 
 .header {
   font-size: 24px;
   color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.content-one {
+  width: 400px;
+}
+
+.image-one {
+  text-align: center;
+  width: 400px;
 }
 
 .hero-main {
@@ -26,6 +47,10 @@ body {
 
 ul {
   list-style: none;
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
